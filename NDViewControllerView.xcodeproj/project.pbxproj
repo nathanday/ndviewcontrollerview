@@ -7,18 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D828A86E190CB2A000AA3BCB /* NDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D828A86D190CB2A000AA3BCB /* NDViewController.m */; };
 		D8D3738B190A72DC00F09BF5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D3738A190A72DC00F09BF5 /* Cocoa.framework */; };
 		D8D37395190A72DC00F09BF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8D37393190A72DC00F09BF5 /* InfoPlist.strings */; };
 		D8D37397190A72DC00F09BF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D37396190A72DC00F09BF5 /* main.m */; };
 		D8D3739B190A72DC00F09BF5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D8D37399190A72DC00F09BF5 /* Credits.rtf */; };
 		D8D3739E190A72DC00F09BF5 /* NDDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D3739D190A72DC00F09BF5 /* NDDocument.m */; };
-		D8D373A1190A72DC00F09BF5 /* NDDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D3739F190A72DC00F09BF5 /* NDDocument.xib */; };
+		D8D373A1190A72DC00F09BF5 /* NDTestWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D3739F190A72DC00F09BF5 /* NDTestWindowController.xib */; };
 		D8D373A4190A72DC00F09BF5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D373A2190A72DC00F09BF5 /* MainMenu.xib */; };
 		D8D373A6190A72DC00F09BF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D373A5190A72DC00F09BF5 /* Images.xcassets */; };
 		D8D373AD190A72DC00F09BF5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D373AC190A72DC00F09BF5 /* XCTest.framework */; };
 		D8D373AE190A72DC00F09BF5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D3738A190A72DC00F09BF5 /* Cocoa.framework */; };
 		D8D373B6190A72DC00F09BF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8D373B4190A72DC00F09BF5 /* InfoPlist.strings */; };
 		D8D373B8190A72DC00F09BF5 /* NDViewControllerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D373B7190A72DC00F09BF5 /* NDViewControllerViewTests.m */; };
+		D8D373C4190A732300F09BF5 /* NDViewControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D373C3190A732300F09BF5 /* NDViewControllerView.m */; };
+		D8F59A66190E707F00B76DE1 /* NDTestWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F59A65190E707F00B76DE1 /* NDTestWindowController.m */; };
+		D8F59A6A190E71FD00B76DE1 /* NDTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F59A68190E71FD00B76DE1 /* NDTestViewController.m */; };
+		D8F59A6B190E71FD00B76DE1 /* NDTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8F59A69190E71FD00B76DE1 /* NDTestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D828A86C190CB2A000AA3BCB /* NDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDViewController.h; sourceTree = "<group>"; };
+		D828A86D190CB2A000AA3BCB /* NDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDViewController.m; sourceTree = "<group>"; };
 		D8D37387190A72DC00F09BF5 /* NDViewControllerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NDViewControllerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D3738A190A72DC00F09BF5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D8D3738D190A72DC00F09BF5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -44,7 +51,7 @@
 		D8D3739A190A72DC00F09BF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		D8D3739C190A72DC00F09BF5 /* NDDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDDocument.h; sourceTree = "<group>"; };
 		D8D3739D190A72DC00F09BF5 /* NDDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NDDocument.m; sourceTree = "<group>"; };
-		D8D373A0190A72DC00F09BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/NDDocument.xib; sourceTree = "<group>"; };
+		D8D373A0190A72DC00F09BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/NDTestWindowController.xib; sourceTree = "<group>"; };
 		D8D373A3190A72DC00F09BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D8D373A5190A72DC00F09BF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D8D373AB190A72DC00F09BF5 /* NDViewControllerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NDViewControllerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +59,13 @@
 		D8D373B3190A72DC00F09BF5 /* NDViewControllerViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NDViewControllerViewTests-Info.plist"; sourceTree = "<group>"; };
 		D8D373B5190A72DC00F09BF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D8D373B7190A72DC00F09BF5 /* NDViewControllerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NDViewControllerViewTests.m; sourceTree = "<group>"; };
+		D8D373C2190A732300F09BF5 /* NDViewControllerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDViewControllerView.h; sourceTree = "<group>"; };
+		D8D373C3190A732300F09BF5 /* NDViewControllerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDViewControllerView.m; sourceTree = "<group>"; };
+		D8F59A64190E707F00B76DE1 /* NDTestWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDTestWindowController.h; sourceTree = "<group>"; };
+		D8F59A65190E707F00B76DE1 /* NDTestWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDTestWindowController.m; sourceTree = "<group>"; };
+		D8F59A67190E71FD00B76DE1 /* NDTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDTestViewController.h; sourceTree = "<group>"; };
+		D8F59A68190E71FD00B76DE1 /* NDTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDTestViewController.m; sourceTree = "<group>"; };
+		D8F59A69190E71FD00B76DE1 /* NDTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NDTestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +92,7 @@
 		D8D3737E190A72DB00F09BF5 = {
 			isa = PBXGroup;
 			children = (
+				D8D373C1190A730200F09BF5 /* Classes */,
 				D8D37390190A72DC00F09BF5 /* NDViewControllerView */,
 				D8D373B1190A72DC00F09BF5 /* NDViewControllerViewTests */,
 				D8D37389190A72DC00F09BF5 /* Frameworks */,
@@ -117,10 +132,15 @@
 		D8D37390190A72DC00F09BF5 /* NDViewControllerView */ = {
 			isa = PBXGroup;
 			children = (
+				D8D373A2190A72DC00F09BF5 /* MainMenu.xib */,
 				D8D3739C190A72DC00F09BF5 /* NDDocument.h */,
 				D8D3739D190A72DC00F09BF5 /* NDDocument.m */,
-				D8D3739F190A72DC00F09BF5 /* NDDocument.xib */,
-				D8D373A2190A72DC00F09BF5 /* MainMenu.xib */,
+				D8F59A64190E707F00B76DE1 /* NDTestWindowController.h */,
+				D8F59A65190E707F00B76DE1 /* NDTestWindowController.m */,
+				D8D3739F190A72DC00F09BF5 /* NDTestWindowController.xib */,
+				D8F59A67190E71FD00B76DE1 /* NDTestViewController.h */,
+				D8F59A68190E71FD00B76DE1 /* NDTestViewController.m */,
+				D8F59A69190E71FD00B76DE1 /* NDTestViewController.xib */,
 				D8D373A5190A72DC00F09BF5 /* Images.xcassets */,
 				D8D37391190A72DC00F09BF5 /* Supporting Files */,
 			);
@@ -155,6 +175,17 @@
 				D8D373B4190A72DC00F09BF5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8D373C1190A730200F09BF5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D8D373C2190A732300F09BF5 /* NDViewControllerView.h */,
+				D8D373C3190A732300F09BF5 /* NDViewControllerView.m */,
+				D828A86C190CB2A000AA3BCB /* NDViewController.h */,
+				D828A86D190CB2A000AA3BCB /* NDViewController.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,8 +265,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8D373A1190A72DC00F09BF5 /* NDDocument.xib in Resources */,
+				D8D373A1190A72DC00F09BF5 /* NDTestWindowController.xib in Resources */,
 				D8D373A6190A72DC00F09BF5 /* Images.xcassets in Resources */,
+				D8F59A6B190E71FD00B76DE1 /* NDTestViewController.xib in Resources */,
 				D8D37395190A72DC00F09BF5 /* InfoPlist.strings in Resources */,
 				D8D3739B190A72DC00F09BF5 /* Credits.rtf in Resources */,
 				D8D373A4190A72DC00F09BF5 /* MainMenu.xib in Resources */,
@@ -259,6 +291,10 @@
 			files = (
 				D8D3739E190A72DC00F09BF5 /* NDDocument.m in Sources */,
 				D8D37397190A72DC00F09BF5 /* main.m in Sources */,
+				D8F59A66190E707F00B76DE1 /* NDTestWindowController.m in Sources */,
+				D828A86E190CB2A000AA3BCB /* NDViewController.m in Sources */,
+				D8F59A6A190E71FD00B76DE1 /* NDTestViewController.m in Sources */,
+				D8D373C4190A732300F09BF5 /* NDViewControllerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,12 +333,12 @@
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		D8D3739F190A72DC00F09BF5 /* NDDocument.xib */ = {
+		D8D3739F190A72DC00F09BF5 /* NDTestWindowController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D8D373A0190A72DC00F09BF5 /* Base */,
 			);
-			name = NDDocument.xib;
+			name = NDTestWindowController.xib;
 			sourceTree = "<group>";
 		};
 		D8D373A2190A72DC00F09BF5 /* MainMenu.xib */ = {
@@ -479,6 +515,7 @@
 				D8D373BD190A72DC00F09BF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8D373BE190A72DC00F09BF5 /* Build configuration list for PBXNativeTarget "NDViewControllerViewTests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +524,7 @@
 				D8D373C0190A72DC00F09BF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,10 +7,11 @@
 //
 
 #import "NDDocument.h"
+#import "NDTestWindowController.h"
 
 @implementation NDDocument
 
-- (id)init
+- (instancetype)init
 {
     self = [super init];
     if (self) {
@@ -19,11 +20,9 @@
     return self;
 }
 
-- (NSString *)windowNibName
+- (void)makeWindowControllers
 {
-	// Override returning the nib file name of the document
-	// If you need to use a subclass of NSWindowController or if your document supports multiple NSWindowControllers, you should remove this method and override -makeWindowControllers instead.
-	return @"NDDocument";
+	[self addWindowController:[[NDTestWindowController alloc] init]];
 }
 
 - (void)windowControllerDidLoadNib:(NSWindowController *)aController
